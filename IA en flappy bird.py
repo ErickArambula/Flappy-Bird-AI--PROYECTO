@@ -1,3 +1,11 @@
+#************************************************
+
+#     Alumno: Erick Alejandro Arambula Saldana 
+#     Registro: 21110401
+#             
+# PROYECTO INTELIGENCIA ARTIFICIAL "AI FLAPPY BIRD"
+
+#***********************************************
 import pygame 
 import neat
 import time
