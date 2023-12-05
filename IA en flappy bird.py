@@ -160,6 +160,9 @@ def draw_window(win, bird, pipes, base, score):
     for pipe in pipes:
         pipe.draw(win)
         
+    text = STAT_FONT.render("Score: " + str(score), 1,(255,255,255))   
+    win.blit(text, (WIN_WIDTH - 10 - text.get_width(), 10))
+        
     base.draw(win)
         
     bird.draw(win)
